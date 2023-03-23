@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <TextView
+            android:id="@+id/weight1TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Weight 1:"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/weight1EditTextNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:id="@+id/weight2TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Weight 2:"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/weight2EditTextNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:id="@+id/distanceTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Distance:"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/distanceEditTextNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+
+        <Button
+            android:id="@+id/calculateButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="calculateButton_onClick"
+            android:text="Calculate" />
+
+        <TextView
+            android:id="@+id/forceTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Force:"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/forceEditTextNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:editable="false"
+            android:inputType="none" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
