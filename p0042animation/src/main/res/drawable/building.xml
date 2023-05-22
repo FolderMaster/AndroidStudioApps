@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" android:height="150dp"
+    android:width="200dp">
+    <item android:height="100dp" android:width="100dp" android:left="0dp" android:top="50dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#FFFFFFFF"/>
+        </shape>
+    </item>
+    <item android:height="100dp" android:width="100dp" android:left="100dp" android:top="50dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#FFCCCCCC"/>
+        </shape>
+    </item>
+    <item android:height="50dp" android:width="100dp" android:left="0dp" android:top="0dp">
+        <vector xmlns:android="http://schemas.android.com/apk/res/android"
+            android:height="50dp"
+            android:width="100dp"
+            android:viewportWidth="100"
+            android:viewportHeight="50">
+            <path android:fillColor="#FFFFFFFF" android:pathData="M50,0L0,50L100,50Z" />
+        </vector>
+    </item>
+    <item android:height="50dp" android:width="150dp" android:left="50dp" android:top="0dp">
+        <vector xmlns:android="http://schemas.android.com/apk/res/android"
+            android:height="50dp"
+            android:width="150dp"
+            android:viewportWidth="150"
+            android:viewportHeight="50">
+            <path android:fillColor="#FFAA0000" android:pathData="L50,50L150,50L100,0Z" />
+        </vector>
+    </item>
+    <item android:height="35dp" android:width="25dp" android:left="125dp" android:top="0dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#FFCCCCCC"/>
+        </shape>
+    </item>
+    <item android:height="35dp" android:width="15dp" android:left="110dp" android:top="0dp">
+        <vector xmlns:android="http://schemas.android.com/apk/res/android"
+            android:height="35dp"
+            android:width="15dp"
+            android:viewportWidth="15"
+            android:viewportHeight="35">
+            <path android:fillColor="#FFFFFFFF" android:pathData="L15,0L15,35L0,20Z" />
+        </vector>
+    </item>
+    <item android:height="30dp" android:width="30dp" android:left="135dp" android:top="85dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#FF0077BB"/>
+        </shape>
+    </item>
+    <item android:height="30dp" android:width="30dp" android:left="135dp" android:top="85dp">
+        <vector xmlns:android="http://schemas.android.com/apk/res/android"
+            android:height="30dp" android:width="30dp" android:viewportWidth="30"
+            android:viewportHeight="30">
+            <path android:strokeColor="#FFFFFFFF" android:strokeWidth="1"
+                android:pathData="M0.5,0.5L0.5,29.5L29.5,29.5L29.5,0.5Z"/>
+        </vector>
+    </item>
+    <item android:height="70dp" android:width="30dp" android:left="35dp" android:top="80dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#FFBB7700"/>
+        </shape>
+    </item>
+</layer-list>

@@ -16,6 +16,10 @@
             <option value="$PROJECT_DIR$/p0022testwidgets" />
             <option value="$PROJECT_DIR$/p0023gravitymodel" />
             <option value="$PROJECT_DIR$/p0031classes" />
+            <option value="$PROJECT_DIR$/p0041animationtest" />
+            <option value="$PROJECT_DIR$/p0042animation" />
+            <option value="$PROJECT_DIR$/p0051filetest" />
+            <option value="$PROJECT_DIR$/p0052file" />
           </set>
         </option>
       </GradleProjectSettings>

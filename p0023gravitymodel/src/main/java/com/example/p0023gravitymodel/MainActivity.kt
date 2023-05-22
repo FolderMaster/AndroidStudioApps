@@ -2,7 +2,7 @@ package com.example.p0023gravitymodel;
 
 import android.os.Bundle;
 import android.app.AlertDialog;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
 import android.widget.EditText;
 import kotlin.math.pow;
